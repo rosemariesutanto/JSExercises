@@ -1,0 +1,43 @@
+body {
+  margin: 0px;
+  background-color: #edf9f8;
+}
+
+.container {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border: 1px solid black;
+  margin: 48px;
+  padding: 60px;
+  padding-top: 12px;
+  background-color: white;
+}
+
+h1, h2 {
+  font-family: helvetica;
+  font-size: 36px;
+}
+
+.meong {
+  background-image: url("Smiling-Cat.jpeg");
+  height: 380px;
+  width: 380px;
+  background-position: center;
+}
+
+.frazzle {
+  background-image: url("Stoned_Fox.jpeg");
+  background-size: cover;
+  height: 380px;
+  width: 380px;
+  background-position: center;
+}
+
+#text1, #text2 {
+  display: none;
+}
